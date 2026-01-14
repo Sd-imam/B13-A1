@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    /* background-color: aquamarine; */
+    /* background-color: #FFFFFF; */
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    margin: 16px 120px; 
+     /* background-color: blue;  */
+}
+.logo-navbar{
+    width: 140px;
+    height: 60px;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    /* background-color: blue; */
+  
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    /* background-color: blue; */
+    line-height: 152%;
+    text-align: left;
+
+}
+.btno a{
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 132px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 16px;
+    /* border: 2px solid rgb(245, 242, 242); */
+    border-radius: 8px;
+     background-color:
+#30B868; 
+} 
+.btno a:hover{
+    background-color: #0c361e;
+    transition: 0.3s;
+}
+.menu a:hover{
+    /* color: #095027; */
+    transition: 0.3s;
+    background-color: #96b608;
+}
+.logo-navbar:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    background-color: #e0acc6;
+    border-radius: 5px;
+}
+
+
+/* banner start */
+.banner-container{
+    width: 100%;
+    height: 674px;
+    background-image: url('./assets/hero-bg.png');
+      background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+  background-size: cover;
+  padding: 70px 120px 134px 120px;
+}
+.text-container{
+    width: 1360px;
+    height: 379px;
+ background: none;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.first-p{
+    /* Early Access Now Open */
+width: 300px;
+height: 40px;
+color: var(--#30B868, rgba(70, 145, 101, 1));
+
+font-family: Inter;
+font-style: Medium;
+font-size: 25px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+color: #469165;
+margin-bottom: 16px;
+/* border: 2px solid salmon; */
+background-color: white;
+padding: 10px 10px 10px 10px ;
+border-radius: 5px;
+
+}
+.head{
+     width: 770px;
+    height: 160px; 
+    font-size: 50px;
+ text-align: center; 
+  margin-bottom: 20px; 
+ /* border: 2px solid red; */
+
+}
+.head-one{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.head-two{
+    font-weight: 700;
+    color: #30B868;
+    margin-top: 10px;
+}
+/* corle lagba */
+.para-one{
+    width: 1360px;
+    height: 60px;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    text-align: center;
+    /* border: 2px solid #30B868; */
+    margin-bottom: 32px;
+    margin-top: 20px;
+}
+
+.btnt{
+    display: flex;
+    gap: 30px;
+    width: 700px;
+    height: 60px;
+    /* color: #FFFFFF; */
+    font-size: larger;
+    background: none;
+    justify-content: center;
+    align-items: center; 
+  
+}
+.btnt a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btntt{
+    background-color: #30B868;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 46px 16px 16px;
+    border-radius: 5px;
+}
+
+.btnttt{
+    border: 1px solid white;
+    border-radius: 5px;
+     width: 250px;
+    height: 60px;
+     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 16px 16px 16px 16px;
+}
+.btnttt:hover{
+    background-color: #a50f5a;
+    transition: 0.3s;
+}
+.btntt:hover{
+    background-color: #96b608;
+    transition: 0.3s;
+}
+   /* Banner Section Ends Here */ 
+
+
