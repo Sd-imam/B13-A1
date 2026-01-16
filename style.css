@@ -184,6 +184,77 @@ border-radius: 5px;
     background-color: #96b608;
     transition: 0.3s;
 }
+
    /* Banner Section Ends Here */ 
+    /* Notes Section start here */
+
+.note-container{
+    width: 1360px;
+    height: 156px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     border: 2px solid red; 
+    /* margin-top: 20px; */
+   }
+   .note-tex h2{
+    width: 1360px;
+    /* height: 120px; */
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 16px;
+   margin-top: 20px;
+   }
+   .text-p{
+  color:#627382 ;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 44px;
+   }
+
+    /* Notes Section End here */
+   /* card section start here   */
+
+   .card-container{
+    /* background-color: #627382;*/
+    border: 2px solid red; 
+    width: 1360px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   }
+   .four{
+    width: 322px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    padding: 90px 10px 10px 10px ;
+    display: flex;
+   }
+   .vec{
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50px;
+   
+   }
+    .four h3{
+     font-size: 24px;
+     font-weight: 600;
+     color: #001931;
+    }
+    .four p{
+     font-size: 16px;
+     color: #627382;
+     line-height: 24px;
+    }
 
 
