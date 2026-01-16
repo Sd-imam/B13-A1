@@ -376,3 +376,36 @@ border-radius: 5px;
         justify-content: center;
         margin: 0 auto;
       }
+      /* Footer Section Start Here 000000000000000000000000000000000000*/
+      /* Early Access Section start 1111111111111111111111111111111111 */
+      .access-container{
+        /* border: 2px solid red; */
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      .access-container h1{
+        margin: 80px 20px 40px 20px ;
+
+      }
+      .access-container p{
+        /* background-color: #e0acc6; */
+        font-size: 20px;
+        color:#627382 ;
+        padding: 40px;
+
+
+      }
+      .access-container .nine{
+        background-color: #30B868;
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
+        border-radius: 10px;
+      }
+     
+     
