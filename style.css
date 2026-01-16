@@ -262,7 +262,7 @@ border-radius: 5px;
     .second-brain{
          width: 1360px;
         height: 600px;  
-        /* border: 2px solid red; */
+        /* border: 2px solid red;  */
         /* margin-top: 120px; */
         display: flex;
         justify-content: center;
@@ -273,6 +273,7 @@ border-radius: 5px;
          margin-top: 120px;
          /* background-color: #627382; */
          justify-content: space-between;
+         margin-bottom: 120px;
        
     }
     .brain-img{
@@ -322,6 +323,56 @@ border-radius: 5px;
             /* gap: 20px; */
             
         }
-         /* Second Brain Section Ends Here 00000000000000000000000000000000000 */
-
+         /* Second Brain Section Ends Here 00000000000000000000000000000000 */
+        /* Footer Section Start Here  11111111111111111111111111111111111111*/
+      .fooder-head{
+      /* width: 1900px; */
+      width: auto;
+      height: 350px;
+      background-color: #001931;
+      padding: 120px 120px 30px 120px;
+      }
+      .link-container{
+        width: 1360px;
+        height: 70px;
+        /* border: 2px solid red   ; */
+        display: flex;
+        margin:  0 auto;
+        /* margin-bottom: 120px; */
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+      }
+      .social-links h4{
+        color: white;
+        /* padding: 2px 2px; */
+        margin-bottom: 6px;
+      }
+      .img-three a{
+        background-color: white;
+        border-radius: 5px;
+         width: 50px;
+        height: 50px; 
+        gap: 5px;
+      }
+      .img-three a:hover{
+        background-color: #900ba1;
+      }
+      .line{
+        
+        width: 1360px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
       
+      }
+      .fooder-end p{
+        padding: 30px;
+        font-size: 16px;
+        color: white;
+        /* background-color: #FFFFFF; */
+        text-align: center;
+        width: 1360px;
+        justify-content: center;
+        margin: 0 auto;
+      }
